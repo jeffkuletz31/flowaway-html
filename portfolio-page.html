@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>FlowAway | Portfoli Page</title>
+<meta name="description" content="FlowAway Background Video/Image/Audio Supported Premium HTML5 Theme" />
+<meta name='robots' content='index,follow' />
+<link rel='stylesheet' id='contentFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='headerFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css-css'  href='css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-css-css'  href='css/video-js.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ThemeKeyAnimations-css'  href='css/animations.css' type='text/css' media='all' />
+<link rel='stylesheet' id='generalStyle-css'  href='style.css' type='text/css' media='all' />
+<script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>
+<script type='text/javascript' src='js/jquery-migrate-1.2.1.min.js'></script>
+<script type='text/javascript' src='js/modernizr.js'></script>
+
+<script type='text/javascript' src='main.js'></script>
+<script type='text/javascript'>
+var historyApiEnable = false; // if true htlm5 history api will use
+var bgTime = 6000; // Background Image/Video animation display duration (ms)
+var bgPaused = false; // Background Image/Video animation paused
+var autoPlay = true; // Background audio autoplay
+var loop = false; // Background audio loop or next song
+var videoSkipMobile = false; // if true background videos skips on mobile
+var NormalFade = false; // Normal fade or animated bg image
+var videoLoop = false; // if true video will be play again when end of the video.
+var muteWhilePlayVideo = true; // if true video mute while playing video
+var btnSoundUrlMp3 = 'http://files.renklibeyaz.com/sounds/pd-button.mp3'; // Button Hover Sound
+var btnSoundUrlOgg = 'http://files.renklibeyaz.com/sounds/pd-button.ogg'; // Button Hover Sound
+var videoMuted = false; // if true video start mute
+var loopBg = true; // if true backgroud item loop when end of the array
+var bgPatternV = 'block'; // if block pattern visible, if none pattern hide
+var videoPaused = false; // if true video doesn't start
+var bgStretch = true; // if true bg stretch
+var twitterEnable = true; // if true twitter data loaded by ajax
+</script>
+</head>
+<body>
+
+<!-- BEGIN: Body Wrapper -->
+<div id="body-wrapper">
+
+	<!-- BEGIN: Main Menu -->
+	<header id="menu-container">
+		<a id="closeMenu" class="nolink" href="javascript:void(0);"></a>
+		<div id="menu-wrapper">
+			<span id="menuBorder"></span>
+			<!-- BEGIN: Logo -->
+			<div id="logo">
+				<img src="images/flowaway-logo.png" alt="FlowAway" >
+			</div>
+			<!-- END: Logo -->
+			<nav id="mainmenu">
+				<div class="menu-header">
+					<ul id="menu-main-menu" class="menu">
+						<li id="menu-item-1">						
+							<a href="index.html">
+								<span class="title">
+									<span class="original">HOME</span>
+								</span>
+							</a>
+						</li>
+						
+						<li id="menu-item-2">						
+							<a href="#">
+								<span class="title">
+									<span class="original">ABOUT</span>
+								</span>
+							</a>
+							
+							<ul class="sub-menu">
+							
+								<li id="menu-item-21">							
+									<a href="company.html">
+										<span class="title">
+											<span class="original">COMPANY</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-22">							
+									<a href="columns.html">
+										<span class="title">
+											<span class="original">COLUMNS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-23">							
+									<a href="quotes.html">
+										<span class="title">
+											<span class="original">QUOTES</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-24">							
+									<a href="other_elements.html">
+										<span class="title">
+											<span class="original">OTHER ELEMENTS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-25">							
+									<a href="#">
+										<span class="title">
+											<span class="original">LEVEL 3</span>
+										</span>
+									</a>
+										<ul class="sub-menu">
+
+										<li id="menu-item-251">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 1</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-252">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 2</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-253">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 3</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-3">						
+							<a href="blog.html">
+								<span class="title">
+									<span class="original">BLOG</span>
+								</span>
+							</a>
+						</li>
+
+						<li id="menu-item-4">						
+							<a href="#">
+								<span class="title">
+									<span class="original">GALLERIES</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-41">							
+									<a href="grid-gallery.html">
+										<span class="title">
+											<span class="original">GRID GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-42">							
+									<a href="background-gallery.html">
+										<span class="title">
+											<span class="original">BACKGROUND GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-43">							
+									<a href="fullpage-gallery.html">
+										<span class="title">
+											<span class="original">FULLPAGE GALLERY</span>
+										</span>
+									</a>
+								</li>								
+							</ul>
+						</li>
+
+						<li id="menu-item-5">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PROJECTS</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-51">							
+									<a href="projects-masonary.html">
+										<span class="title">
+											<span class="original">MASONRY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-52">							
+									<a href="project-3-columns.html">
+										<span class="title">
+											<span class="original">3 COLUMNS</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-53">							
+									<a href="project-4-columns-pagination.html">
+										<span class="title">
+											<span class="original">4 COLUMNS PAGINATION</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-54">							
+									<a href="project-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-55">							
+									<a href="project-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+
+						<li id="menu-item-6">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PORTFOLIOS</span>
+								</span>
+							</a>
+						
+							<ul class=" sub-menu">
+
+								<li id="menu-item-61">							
+									<a href="portfolio-fullpage-grid.html">
+										<span class="title">
+											<span class="original">PORTFOLIO GRID</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-62">							
+									<a href="portfolio-inpage.html">
+										<span class="title">
+											<span class="original">PORTFOLIO INPAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-63">							
+									<a href="portfolio-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-64">							
+									<a href="portfolio-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-65">							
+									<a href="portfolio-centered-page-bg.html">
+										<span class="title">
+											<span class="original">CENTERED PAGE WITH BG</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-7">						
+							<a href="contact.html">
+								<span class="title">
+									<span class="original">CONTACT</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+				
+			<div id="TwitterFeed">
+				<h3>Twitter Feed</h3>
+				<ul>
+					<li>Tweets are loading</li>
+				</ul>
+			</div>
+			<h3 class="menulink"><a href="#">Buy This Theme!</a></h3>
+			<div id="menuSocial">
+				<a class="facebook" href="#"></a>
+				<a class="twitter" href="#"></a>
+				<a class="dribbble" href="#"></a>
+				<a class="linkedin" href="#"></a>
+				<a class="youtube" href="#"></a>
+				<a class="vimeo" href="#"></a>
+				<a class="pinterest" href="#"></a>
+				<a class="instagram" href="#"></a>
+			</div>
+		</div>
+	</header>
+	<a id="openMenu" class="nolink" href="#"></a>
+	<!-- END: Main Menu -->
+	
+	<!-- BEGIN: Main Elements; Please don't change these elements -->
+	<div id="bgPlayer">
+		<div id="mediaWrapper"></div>
+		<div id="bgPattern"></div>
+		<div id="mediaTimer"></div>
+		<div id="bgText">
+			<div class="headerTextWrapper"><div class="headerText"></div></div>
+			<div class="clearfix"></div>
+			<div class="subTextWrapper"><div class="subText"></div></div>
+		</div>
+		<!-- BEGIN: Controller Buttons -->
+		<a class="prevBG" href="javascript:void(0);"></a>
+		<a class="nextBG" href="javascript:void(0);"></a>
+		<div class="itemNumbers">
+			<span class="currentItemNo"></span> <span class="currentItemSeperator">/</span> <span class="totalItemCount"></span>
+			<a href="#" class="currentPlayPause"></a>
+		</div>
+		<div class="screenControl">
+			<a class="fitBG" href="javascript:void(0);"></a>
+			<a class="fitCenterBG" href="javascript:void(0);"></a>
+			<a class="fullCenterBG" href="javascript:void(0);"></a>
+			<a class="bgTextToggle" href="javascript:void(0);"></a>
+		</div>
+		<div class="bgImageLoading">
+			<div id="circleG">
+				<div id="circleG_1" class="circleG"></div>
+				<div id="circleG_2" class="circleG"></div>
+				<div id="circleG_3" class="circleG"></div>
+			</div>
+		</div>
+		<!-- END: Controller Buttons -->
+		
+		<div id="contentLoading">
+			<div id="loading-text">Loading</div>
+			<div class="slider">
+			<div class="line"></div>
+			  <div class="break dot1"></div>
+			  <div class="break dot2"></div>
+			  <div class="break dot3"></div>
+			</div>
+		</div>	
+		
+		<div id="videoExpander"></div>
+	</div>
+	
+	<div id="content">
+		<div id="contentContainer" class="Invisible FullPageLeft">
+			<div id="contentBox">
+				<section id="contentBoxContainer">
+					<!-- Content Start Here -->
+					<div class="full-page-media">
+						<img src="images/portfolio-24.jpg" class="img-responsive " alt="Consectetur vehicula ullamcorper aliquam, venenatis elementum." >											
+						<div class="hoverWrapperBg"></div>
+						<div class="hoverWrapper">
+							<span class="blogimageMagnify hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="blogimageIconTransIn" data-transout="blogimageIconTransOut"></span>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<h1 class="portfolio-detail-header">Consectetur vehicula ullamcorper aliquam, venenatis elementum.</h1>
+								<p>Cras a eleifend metus, id bibendum orci. Sed at facilisis lacus. Vivamus posuere fermentum ligula. Pellentesque sodales vitae purus vel feugiat. Pellentesque molestie mi a dolor volutpat, at euismod metus pellentesque. Sed ipsum nulla, accumsan id mauris sed, tristique dictum ligula. Vivamus vitae sollicitudin ante. Cras augue nisl, vestibulum vitae risus a, aliquet sodales mi. Nulla scelerisque nibh elit. Sed gravida diam quis sem elementum, at lobortis augue interdum. Sed in dui nec ipsum hendrerit suscipit quis nec leo.</p>
+								<p>Pellentesque velit felis, molestie ut neque et, faucibus auctor libero. Maecenas gravida mattis ultrices. Aliquam sollicitudin, arcu eget dictum ultrices, urna mi vehicula lectus, ac volutpat justo sem eget arcu. Sed feugiat placerat libero, id luctus justo lobortis id. Donec molestie cursus augue, at tincidunt libero semper pharetra. Nullam rutrum egestas nisl, non convallis tortor suscipit sed. Fusce ullamcorper varius ipsum, in gravida mauris. Praesent gravida augue nec aliquam imperdiet. Cras congue congue tortor euismod posuere. Donec cursus id sapien at vehicula. Vestibulum placerat volutpat velit nec mollis. Suspendisse aliquam adipiscing dolor a sodales. Donec eu felis consectetur, consectetur orci vitae, semper risus. Praesent ante nulla, facilisis sed lacinia quis, pellentesque aliquam nunc. Suspendisse laoreet est quis faucibus dignissim.</p>
+							</div>
+							<div class="col-md-4 portfolio-datails-col">
+								<h3 class="portfolio-details">PORTFOLIO DETAILS</h3>
+								<div class="row portfolio-details-row">
+									<div class="col-xs-5">
+										<strong>CLIENT</strong>
+									</div>
+									<div class="col-xs-7">
+										ThemeForest									
+									</div>
+								</div>
+								<div class="row portfolio-details-row">
+									<div class="col-xs-5">
+										<strong>DATE</strong>
+									</div>
+									<div class="col-xs-7">
+										04 January 2014									
+									</div>
+								</div>
+								<div class="row portfolio-details-row">
+									<div class="col-xs-5">
+										<strong>CATEGORY</strong>
+									</div>
+									<div class="col-xs-7">
+										<a  href="#" >Fashion</a>									
+									</div>
+								</div>
+								<div class="row portfolio-details-row">
+									<div class="col-xs-5">
+										<strong>LINK</strong>
+									</div>
+									<div class="col-xs-7">
+										<a href="http://themeforest.net" target="_blank">http://themeforest.net</a>
+									</div>
+								</div>
+								<div class="portfolio-detail-share">
+									<a href="https://twitter.com/intent/tweet?original_referer=http://mythemes.renklibeyaz.com/flowawaywp/portfolio/consectetur-vehicula-ullamcorper-aliquam-venenatis-elementum/&amp;source=tweetbutton&amp;text=Consectetur+vehicula+ullamcorper+aliquam%2C+venenatis+elementum.&amp;url=http://mythemes.renklibeyaz.com/flowawaywp/portfolio/consectetur-vehicula-ullamcorper-aliquam-venenatis-elementum/&amp;via=" target="_blank" title="Share on Twitter">
+									<i class="fa fa-twitter"></i>
+									</a>
+									<a href="http://www.facebook.com/sharer.php?u=http://mythemes.renklibeyaz.com/flowawaywp/portfolio/consectetur-vehicula-ullamcorper-aliquam-venenatis-elementum/"  target="_blank" title="Share on Facebook">
+									<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://plus.google.com/share?url=http://mythemes.renklibeyaz.com/flowawaywp/portfolio/consectetur-vehicula-ullamcorper-aliquam-venenatis-elementum/" target="_blank" title="Share on Google+">
+									<i class="fa fa-google-plus"></i>
+									</a>
+									<a href="http://www.pinterest.com/pin/create/button/?url=http://mythemes.renklibeyaz.com/flowawaywp/portfolio/consectetur-vehicula-ullamcorper-aliquam-venenatis-elementum/&amp;media=http://mythemes.renklibeyaz.com/flowawaywp/wp-content/uploads/2014/01/portfolio-24-full.jpg&amp;description=Cras+a+eleifend+metus%2C+id+bibendum+orci.+Sed+at+facilisis+lacus.+Vivamus+posuere+fermentum+ligula.+Pellentesque+sodales+vitae+purus+vel+feugiat.+Pellentesque+molestie+mi+a+dolor+volutpat%2C+at+euismod" target="_blank" title="Pin it">
+									<i class="fa fa-pinterest"></i>
+									</a>
+								</div>
+								<div class="row portfolio-detail-prevnext">
+									<div class="col-xs-6 text-left">
+										<a href="#" rel="prev"> <i class="fa fa-chevron-left"></i> Prev</a>
+									</div>
+									<div class="col-xs-6 text-right">
+										<a href="#" rel="next">Next <i class="fa fa-chevron-right"></i></a>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- .row -->
+						<div class="row">
+							<div class="col-md-12">
+								<h3 class="portfolio-releated">RELEATED PORTFOLIO ITEMS</h3>
+								<div>
+									<div class="isotope-portfolio">
+										<div class="portfolio-item ">
+											<div class="portfolio-item-container">
+												<a href="images/portfolio-25-full.jpg" class="modalimage">
+													<img src="images/-442968298.jpg" alt="Auctor volutpat enim hendrerit, litora purus." >
+													<div class="hoverWrapperBg"></div>
+													<div class="hoverWrapper">
+														<span data-link="#" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
+														<span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni" ></span>
+														<span class="hoverIconHeart hoverable " data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="209"><span class="hoverIconHeartLike"> 0 </span></span>
+														<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Auctor volutpat enim hendrerit, litora purus.</span>
+														<span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
+														<i class="fa fa-folder-open-o"></i>Fashion				</span>
+													</div>
+												</a>
+											</div>
+											<!-- .portfolio-item-container -->
+										</div>
+										<!-- .portfolio-item -->
+										<div class="portfolio-item ">
+											<div class="portfolio-item-container">
+												<a href="images/portfolio-26-full.jpg" class="modalimage">
+													<img src="images/1796722933.jpg" alt="Aptent curabitur malesuada neque, sem vivamus." >
+													<div class="hoverWrapperBg"></div>
+													<div class="hoverWrapper">
+														<span data-link="#" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
+														<span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni" ></span>
+														<span class="hoverIconHeart hoverable " data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="207"><span class="hoverIconHeartLike"> 2 </span></span>
+														<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Aptent curabitur malesuada neque, sem vivamus.</span>
+														<span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
+														<i class="fa fa-folder-open-o"></i>Fashion, Model				</span>
+													</div>
+												</a>
+											</div>
+											<!-- .portfolio-item-container -->
+										</div>
+										<!-- .portfolio-item -->
+										<div class="portfolio-item ">
+											<div class="portfolio-item-container">
+												<a href="images/portfolio-27-full.jpg" class="modalimage">
+													<img src="images/-1480732565.jpg" alt="Netus conubia facilisis placerat, lorem blandit." >
+													<div class="hoverWrapperBg"></div>
+													<div class="hoverWrapper">
+														<span data-link="#" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
+														<span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni" ></span>
+														<span class="hoverIconHeart hoverable " data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="205"><span class="hoverIconHeartLike"> 1 </span></span>
+														<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Netus conubia facilisis placerat, lorem blandit.</span>
+														<span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
+														<i class="fa fa-folder-open-o"></i>Fashion				</span>
+													</div>
+												</a>
+											</div>
+											<!-- .portfolio-item-container -->
+										</div>
+										<!-- .portfolio-item -->
+										<div class="portfolio-item ">
+											<div class="portfolio-item-container">
+												<a href="images/portfolio-28-full.jpg" class="modalimage">
+													<img src="images/2124268231.jpg" alt="Platea curae ullamcorper nostra, urna venenatis." >
+													<div class="hoverWrapperBg"></div>
+													<div class="hoverWrapper">
+														<span data-link="#" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
+														<span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni" ></span>
+														<span class="hoverIconHeart hoverable " data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="203"><span class="hoverIconHeartLike"> 1 </span></span>
+														<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Platea curae ullamcorper nostra, urna venenatis.</span>
+														<span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
+														<i class="fa fa-folder-open-o"></i>Model				</span>
+													</div>
+												</a>
+											</div>
+											<!-- .portfolio-item-container -->
+										</div>
+										<!-- .portfolio-item -->
+										<div class="portfolio-item ">
+											<div class="portfolio-item-container">
+												<a href="images/portfolio-29-full.jpg" class="modalimage">
+													<img src="images/-1304968615.jpg" alt="Etiam aptent conubia convallis, pulvinar nam." >
+													<div class="hoverWrapperBg"></div>
+													<div class="hoverWrapper">
+														<span data-link="#" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
+														<span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni" ></span>
+														<span class="hoverIconHeart hoverable " data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="201"><span class="hoverIconHeartLike"> 0 </span></span>
+														<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Etiam aptent conubia convallis, pulvinar nam.</span>
+														<span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
+														<i class="fa fa-folder-open-o"></i>Fashion				</span>
+													</div>
+												</a>
+											</div>
+											<!-- .portfolio-item-container -->
+										</div>
+										<!-- .portfolio-item -->
+										<div class="portfolio-item ">
+											<div class="portfolio-item-container">
+												<a href="images/portfolio-30-full.jpg" class="modalimage">
+													<img src="images/-1174155983.jpg" alt="Interdum senectus quis blandit, aenean hendrerit." >
+													<div class="hoverWrapperBg"></div>
+													<div class="hoverWrapper">
+														<span data-link="#" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
+														<span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni" ></span>
+														<span class="hoverIconHeart hoverable " data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="199"><span class="hoverIconHeartLike"> 1 </span></span>
+														<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Interdum senectus quis blandit, aenean hendrerit.</span>
+														<span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
+														<i class="fa fa-folder-open-o"></i>Model				</span>
+													</div>
+												</a>
+											</div>
+											<!-- .portfolio-item-container -->
+										</div>
+										<!-- .portfolio-item -->
+									</div>
+									<!-- .isotope-portfolio -->							
+								</div>
+							</div>
+						</div>
+						<!-- .row -->
+					</div>
+					<!-- .container -->
+					<!-- Content End Here -->
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- END: Main Elements -->
+	
+	<!-- BEGIN: Bottom Side Bar -->
+	<div id="bgImagesContainer">
+		<ul id="bgImages" data-gallery-id="0"></ul>		
+	</div>
+	<!-- END: Bottom Side Bar -->
+	
+	<footer id="footerArea">
+		<div id="footerLeft" class="footerText">
+						<span>FlowAway Premium Theme</span>
+				</div>
+		<div id="footerRight">
+			<div class="footerBgVideoControls">
+				<a href="#" class="footerBtn pauseVideo" data-toggle="tooltipfooter" title="Pause Video"></a> 
+				<a href="#" class="footerBtn playVideo" data-toggle="tooltipfooter" title="Play Video"></a>
+				
+				<a href="#" class="footerBtn muteVideo" data-toggle="tooltipfooter" title="Mute Video"></a> 
+				<a href="#" class="footerBtn unmuteVideo" data-toggle="tooltipfooter" title="Unmute Video"></a>
+			</div>
+			<div class="footerBgControls">
+				<a href="#" class="footerBtn fullpageGallery" data-toggle="tooltipfooter" title="FullPage Gallery" onclick="setFull()"></a> 
+				<a href="#" class="footerBtn pauseGallery" data-toggle="tooltipfooter" title="Pause Gallery"></a> 
+				<a href="#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a> 
+			</div>
+			<div class="footerAudioControls">
+				<a href="#" class="footerBtn prevAudio" data-toggle="tooltipfooter" title="Prev Song"></a> 
+				<a href="#" class="footerBtn stopAudio" data-toggle="tooltipfooter" title="Stop Song"></a> 
+				<a href="#" class="footerBtn pauseAudio" data-toggle="tooltipfooter" title="Pause Song"></a> 
+				<a href="#" class="footerBtn playAudio" data-toggle="tooltipfooter" title="Play Song"></a> 
+				<a href="#" class="footerBtn listAudio"></a> 
+				<a href="#" class="footerBtn nextAudio" data-toggle="tooltipfooter" title="Next Song"></a> 
+			</div>
+		</div>
+	</footer>
+</div><!-- #body-wrapper -->
+
+<!-- BEGIN: Music Player -->
+<div id="playWrapper">
+	<!-- BEGIN: Audio Player -->
+	<div id="player">
+		<div id="playerSongName"></div>
+		<div id="playerController">
+			<div id="playerLoadBar">
+				<div id="playerBar">
+					<div id="playerBarActive"></div>
+				</div>
+			</div>
+			<div id="playerSongDuration">
+				<span class="current"></span>
+				<span class="total"></span>
+			</div>
+			<a href="#" class="playerBtn mute"></a>
+			<a href="#" class="playerBtn unmute"></a>
+			<a href="#" class="playerBtn loop"></a>
+			<a href="#" class="playerBtn nextsong"></a>
+			<div id="volumeLoadBar">
+				<div id="volumeBar">
+					<div id="volumeBarActive"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END: Audio Player -->
+	<div class="clearfix"></div>
+	<!-- BEGIN: Audio List -->
+	<div id="audioList">
+		<ul>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Nexus.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Nexus.ogg">Brandz - Nexus [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.ogg">Brandz - Angeldust [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.ogg">Brandz - Pleasure [2014]</li>
+		</ul>
+	</div>
+	<!-- END: Audio List -->
+</div>
+<!-- END: Music Player -->
+
+<!-- BEGIN: First Loading; Please don't remove this element -->
+<div id="bodyLoading">
+	<div id="coverimage">
+		<img src="images/entrance_logo.png" alt="FlowAway" >
+	</div>
+</div>
+<div id="REF_ColorFirst"></div>
+<div id="REF_ColorSecond"></div>
+<!-- END:  -->
+
+
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=true'></script>
+<script type='text/javascript' src='js/jqBootstrapValidation.js'></script>
+<script type='text/javascript' src='js/jquery.history.js'></script>
+<script type='text/javascript' src='http://f.vimeocdn.com/js/froogaloop2.min.js'></script>
+<script type='text/javascript' src='js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='js/jquery.flexslider.js'></script>
+<script type='text/javascript' src='js/jquery.form.js'></script>
+<script type='text/javascript' src='js/jquery.nicescroll.js'></script>
+<script type='text/javascript' src='js/jquery.hammer.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.perfectmasonry.js'></script>
+<script type='text/javascript' src='js/jquery.hoverdir.js'></script>
+<script type='text/javascript' src='js/jquery.knob.js'></script>
+<script type='text/javascript' src='js/video.js'></script>
+</body>
+</html>

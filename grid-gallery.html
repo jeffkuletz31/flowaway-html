@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>NitroGFX.COM - All For WebMasters...</title>
+<meta name="description" content="FlowAway Background Video/Image/Audio Supported Premium HTML5 Theme" />
+<meta name='robots' content='index,follow' />
+<link rel='stylesheet' id='contentFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='headerFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css-css'  href='css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-css-css'  href='css/video-js.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ThemeKeyAnimations-css'  href='css/animations.css' type='text/css' media='all' />
+<link rel='stylesheet' id='generalStyle-css'  href='style.css' type='text/css' media='all' />
+<script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>
+<script type='text/javascript' src='js/jquery-migrate-1.2.1.min.js'></script>
+<script type='text/javascript' src='js/modernizr.js'></script>
+
+<script type='text/javascript' src='main.js'></script>
+<script type='text/javascript'>
+var historyApiEnable = false; // if true htlm5 history api will use
+var bgTime = 6000; // Background Image/Video animation display duration (ms)
+var bgPaused = false; // Background Image/Video animation paused
+var autoPlay = true; // Background audio autoplay
+var loop = false; // Background audio loop or next song
+var videoSkipMobile = false; // if true background videos skips on mobile
+var NormalFade = false; // Normal fade or animated bg image
+var videoLoop = false; // if true video will be play again when end of the video.
+var muteWhilePlayVideo = true; // if true video mute while playing video
+var btnSoundUrlMp3 = 'http://files.renklibeyaz.com/sounds/pd-button.mp3'; // Button Hover Sound
+var btnSoundUrlOgg = 'http://files.renklibeyaz.com/sounds/pd-button.ogg'; // Button Hover Sound
+var videoMuted = false; // if true video start mute
+var loopBg = true; // if true backgroud item loop when end of the array
+var bgPatternV = 'block'; // if block pattern visible, if none pattern hide
+var videoPaused = false; // if true video doesn't start
+var bgStretch = true; // if true bg stretch
+var twitterEnable = true; // if true twitter data loaded by ajax
+</script>
+</head>
+<body>
+
+<!-- BEGIN: Body Wrapper -->
+<div id="body-wrapper">
+
+	<!-- BEGIN: Main Menu -->
+	<header id="menu-container">
+		<a id="closeMenu" class="nolink" href="javascript:void(0);"></a>
+		<div id="menu-wrapper">
+			<span id="menuBorder"></span>
+			<!-- BEGIN: Logo -->
+			<div id="logo">
+				<img src="images/flowaway-logo.png" alt="FlowAway" >
+			</div>
+			<!-- END: Logo -->
+			
+			<nav id="mainmenu">
+				<div class="menu-header">
+					<ul id="menu-main-menu" class="menu">
+						<li id="menu-item-1">						
+							<a href="index.html">
+								<span class="title">
+									<span class="original">HOME</span>
+								</span>
+							</a>
+						</li>
+						
+						<li id="menu-item-2">						
+							<a href="#">
+								<span class="title">
+									<span class="original">ABOUT</span>
+								</span>
+							</a>
+							
+							<ul class="sub-menu">
+							
+								<li id="menu-item-21">							
+									<a href="company.html">
+										<span class="title">
+											<span class="original">COMPANY</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-22">							
+									<a href="columns.html">
+										<span class="title">
+											<span class="original">COLUMNS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-23">							
+									<a href="quotes.html">
+										<span class="title">
+											<span class="original">QUOTES</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-24">							
+									<a href="other_elements.html">
+										<span class="title">
+											<span class="original">OTHER ELEMENTS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-25">							
+									<a href="#">
+										<span class="title">
+											<span class="original">LEVEL 3</span>
+										</span>
+									</a>
+										<ul class="sub-menu">
+
+										<li id="menu-item-251">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 1</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-252">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 2</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-253">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 3</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-3">						
+							<a href="blog.html">
+								<span class="title">
+									<span class="original">BLOG</span>
+								</span>
+							</a>
+						</li>
+
+						<li id="menu-item-4">						
+							<a href="#">
+								<span class="title">
+									<span class="original">GALLERIES</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-41">							
+									<a href="grid-gallery.html">
+										<span class="title">
+											<span class="original">GRID GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-42">							
+									<a href="background-gallery.html">
+										<span class="title">
+											<span class="original">BACKGROUND GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-43">							
+									<a href="fullpage-gallery.html">
+										<span class="title">
+											<span class="original">FULLPAGE GALLERY</span>
+										</span>
+									</a>
+								</li>								
+							</ul>
+						</li>
+
+						<li id="menu-item-5">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PROJECTS</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-51">							
+									<a href="projects-masonary.html">
+										<span class="title">
+											<span class="original">MASONRY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-52">							
+									<a href="project-3-columns.html">
+										<span class="title">
+											<span class="original">3 COLUMNS</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-53">							
+									<a href="project-4-columns-pagination.html">
+										<span class="title">
+											<span class="original">4 COLUMNS PAGINATION</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-54">							
+									<a href="project-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-55">							
+									<a href="project-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+
+						<li id="menu-item-6">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PORTFOLIOS</span>
+								</span>
+							</a>
+						
+							<ul class=" sub-menu">
+
+								<li id="menu-item-61">							
+									<a href="portfolio-fullpage-grid.html">
+										<span class="title">
+											<span class="original">PORTFOLIO GRID</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-62">							
+									<a href="portfolio-inpage.html">
+										<span class="title">
+											<span class="original">PORTFOLIO INPAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-63">							
+									<a href="portfolio-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-64">							
+									<a href="portfolio-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-65">							
+									<a href="portfolio-centered-page-bg.html">
+										<span class="title">
+											<span class="original">CENTERED PAGE WITH BG</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-7">						
+							<a href="contact.html">
+								<span class="title">
+									<span class="original">CONTACT</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+				
+			<div id="TwitterFeed">
+				<h3>Twitter Feed</h3>
+				<ul>
+					<li>Tweets are loading</li>
+				</ul>
+			</div>
+			<h3 class="menulink"><a href="#">Buy This Theme!</a></h3>
+			<div id="menuSocial">
+				<a class="facebook" href="#"></a>
+				<a class="twitter" href="#"></a>
+				<a class="dribbble" href="#"></a>
+				<a class="linkedin" href="#"></a>
+				<a class="youtube" href="#"></a>
+				<a class="vimeo" href="#"></a>
+				<a class="pinterest" href="#"></a>
+				<a class="instagram" href="#"></a>
+			</div>
+		</div>
+	</header>
+	<a id="openMenu" class="nolink" href="#"></a>
+	<!-- END: Main Menu -->
+	
+	<!-- BEGIN: Main Elements; Please don't change these elements -->
+	<div id="bgPlayer">
+		<div id="mediaWrapper"></div>
+		<div id="bgPattern"></div>
+		<div id="mediaTimer"></div>
+		<div id="bgText">
+			<div class="headerTextWrapper"><div class="headerText"></div></div>
+			<div class="clearfix"></div>
+			<div class="subTextWrapper"><div class="subText"></div></div>
+		</div>
+		<!-- BEGIN: Controller Buttons -->
+		<a class="prevBG" href="javascript:void(0);"></a>
+		<a class="nextBG" href="javascript:void(0);"></a>
+		<div class="itemNumbers">
+			<span class="currentItemNo"></span> <span class="currentItemSeperator">/</span> <span class="totalItemCount"></span>
+			<a href="#" class="currentPlayPause"></a>
+		</div>
+		<div class="screenControl">
+			<a class="fitBG" href="javascript:void(0);"></a>
+			<a class="fitCenterBG" href="javascript:void(0);"></a>
+			<a class="fullCenterBG" href="javascript:void(0);"></a>
+			<a class="bgTextToggle" href="javascript:void(0);"></a>
+		</div>
+		<div class="bgImageLoading">
+			<div id="circleG">
+				<div id="circleG_1" class="circleG"></div>
+				<div id="circleG_2" class="circleG"></div>
+				<div id="circleG_3" class="circleG"></div>
+			</div>
+		</div>
+		<!-- END: Controller Buttons -->
+		
+		<div id="contentLoading">
+			<div id="loading-text">Loading</div>
+			<div class="slider">
+			<div class="line"></div>
+			  <div class="break dot1"></div>
+			  <div class="break dot2"></div>
+			  <div class="break dot3"></div>
+			</div>
+		</div>	
+		
+		<div id="videoExpander"></div>
+	</div>
+	
+	<div id="content">
+		<div id="contentContainer" class="Invisible FullPageCenter">
+			<div id="contentBox">
+				<section id="contentBoxContainer">
+					<!-- Content Start Here -->
+					<div class="isotope-gallery">
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-01.jpg" class="modalimage">
+									<img src="images/127854317.jpg" alt="Quisque facilisis neque mi, et." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Quisque facilisis neque mi, et.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Duis facilisis facilisis orci. Donec urna enim, convallis at felis vel, tristique pretium eros. Nullam.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-02.jpg" class="modalimage">
+									<img src="images/-1995316978.jpg" alt="Vestibulum tincidunt leo ut eros." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Vestibulum tincidunt leo ut eros.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">In feugiat velit a dolor imperdiet, vitae condimentum nisl sollicitudin. Nunc egestas, augue sed congue.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-03.jpg" class="modalimage">
+									<img src="images/1169940880.jpg" alt="Suspendisse cursus hendrerit dapibus. Suspendisse." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Suspendisse cursus hendrerit dapibus. Suspendisse.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Morbi urna massa, facilisis id viverra eu, mollis eu nisi. Vivamus imperdiet blandit augue, sed.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-04.jpg" class="modalimage">
+									<img src="images/-1722068468.jpg" alt="Suspendisse a ligula mauris. Duis." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Suspendisse a ligula mauris. Duis.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Maecenas sollicitudin libero nisi, sit amet rutrum tortor ornare ut. Vivamus eget dictum nibh. Proin.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="http://vimeo.com/65536778?width=500&amp;height=281" class="modalimage">
+									<img src="images/1274829433.jpg" alt="Maecenas tincidunt quis odio eu." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverIconModalVimeo  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Maecenas tincidunt quis odio eu.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Ut eu tincidunt tellus. Ut sed eleifend tortor. In nec lacus commodo, fringilla nibh nec.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-05.jpg" class="modalimage">
+									<img src="images/-2083198953.jpg" alt="In tempus congue urna ut." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">In tempus congue urna ut.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Aenean congue congue massa eget laoreet. Ut rutrum ullamcorper risus. Donec sed magna varius mi.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-06.jpg" class="modalimage">
+									<img src="images/685267083.jpg" alt="Suspendisse tincidunt nec sapien vitae." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Suspendisse tincidunt nec sapien vitae.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Nunc luctus mattis velit nec auctor. Vestibulum aliquet faucibus tempor. Integer dolor libero, lobortis at.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-07.jpg" class="modalimage">
+									<img src="images/-1041109142.jpg" alt="Nulla a sapien eget augue." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Nulla a sapien eget augue.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Massa sapien purus tempor fermentum egestas justo auctor sodales, facilisis libero tincidunt sit amet consectetur.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-08.jpg" class="modalimage">
+									<img src="images/-27160208.jpg" alt="Donec consequat fermentum malesuada. Cras." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Donec consequat fermentum malesuada. Cras.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Porttitor sapien ultrices sollicitudin ad tincidunt, fusce cras nostra augue torquent, amet commodo duis curabitur.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-09.jpg" class="modalimage">
+									<img src="images/-1013693125.jpg" alt="Pellentesque quis viverra turpis. Donec." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Pellentesque quis viverra turpis. Donec.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Elit sapien praesent nostra ullamcorper proin elit quam velit, sapien ut vivamus hendrerit id scelerisque.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-10.jpg" class="modalimage">
+									<img src="images/-598740432.jpg" alt="Maecenas in risus ut turpis." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Maecenas in risus ut turpis.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Imperdiet in elementum donec malesuada blandit, dapibus facilisis lobortis malesuada turpis, justo per vehicula fames.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-11.jpg" class="modalimage">
+									<img src="images/283505326.jpg" alt="Vivamus blandit ornare fermentum. Maecenas." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Vivamus blandit ornare fermentum. Maecenas.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Suscipit eros pellentesque curabitur lectus sodales phasellus tellus pharetra, pulvinar auctor justo diam consequat mi.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-12.jpg" class="modalimage">
+									<img src="images/-1637157555.jpg" alt="Sed adipiscing velit vitae ante." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Sed adipiscing velit vitae ante.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Varius scelerisque ligula class tempor ut duis blandit venenatis, eros potenti lobortis vitae potenti sociosqu.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-13.jpg" class="modalimage">
+									<img src="images/1388377555.jpg" alt="Integer condimentum sodales risus quis." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Integer condimentum sodales risus quis.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Cras platea senectus non tincidunt odio viverra vivamus morbi, lorem fermentum cras donec mattis ad.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+						<div class="gallery-item">
+							<div class="gallery-item-container">
+								<a href="images/gallery-02-14.jpg" class="modalimage">
+									<img src="images/-791077055.jpg" alt="Integer fermentum leo eu velit." >
+									<div class="hoverWrapperBg"></div>
+									<div class="hoverWrapper">
+										<span class="hoverIconModal  hoverable" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon"></span>				<span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">Integer fermentum leo eu velit.</span>
+										<span class="hoverDescription" data-transin="transinaniHoverDescription" data-transout="transoutaniHoverDescription">Quisque habitant euismod commodo torquent pharetra vivamus habitasse aptent, vel tortor fusce sem est nunc.</span>
+									</div>
+								</a>
+							</div>
+							<!-- .gallery-item-container -->
+						</div>
+						<!-- .gallery-item -->
+					</div>
+					<!-- .isotope-gallery -->
+					<!-- Content End Here -->
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- END: Main Elements -->
+	
+	<!-- BEGIN: Bottom Side Bar -->
+	<div id="bgImagesContainer">
+		<ul id="bgImages" data-gallery-id="0"></ul>		
+	</div>
+	<!-- END: Bottom Side Bar -->
+	
+	<footer id="footerArea">
+		<div id="footerLeft" class="footerText">
+						<span>FlowAway Premium Theme</span>
+				</div>
+		<div id="footerRight">
+			<div class="footerBgVideoControls">
+				<a href="#" class="footerBtn pauseVideo" data-toggle="tooltipfooter" title="Pause Video"></a> 
+				<a href="#" class="footerBtn playVideo" data-toggle="tooltipfooter" title="Play Video"></a>
+				
+				<a href="#" class="footerBtn muteVideo" data-toggle="tooltipfooter" title="Mute Video"></a> 
+				<a href="#" class="footerBtn unmuteVideo" data-toggle="tooltipfooter" title="Unmute Video"></a>
+			</div>
+			<div class="footerBgControls">
+				<a href="#" class="footerBtn fullpageGallery" data-toggle="tooltipfooter" title="FullPage Gallery" onclick="setFull()"></a> 
+				<a href="#" class="footerBtn pauseGallery" data-toggle="tooltipfooter" title="Pause Gallery"></a> 
+				<a href="#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a> 
+			</div>
+			<div class="footerAudioControls">
+				<a href="#" class="footerBtn prevAudio" data-toggle="tooltipfooter" title="Prev Song"></a> 
+				<a href="#" class="footerBtn stopAudio" data-toggle="tooltipfooter" title="Stop Song"></a> 
+				<a href="#" class="footerBtn pauseAudio" data-toggle="tooltipfooter" title="Pause Song"></a> 
+				<a href="#" class="footerBtn playAudio" data-toggle="tooltipfooter" title="Play Song"></a> 
+				<a href="#" class="footerBtn listAudio"></a> 
+				<a href="#" class="footerBtn nextAudio" data-toggle="tooltipfooter" title="Next Song"></a> 
+			</div>
+		</div>
+	</footer>
+</div><!-- #body-wrapper -->
+
+<!-- BEGIN: Music Player -->
+<div id="playWrapper">
+	<!-- BEGIN: Audio Player -->
+	<div id="player">
+		<div id="playerSongName"></div>
+		<div id="playerController">
+			<div id="playerLoadBar">
+				<div id="playerBar">
+					<div id="playerBarActive"></div>
+				</div>
+			</div>
+			<div id="playerSongDuration">
+				<span class="current"></span>
+				<span class="total"></span>
+			</div>
+			<a href="#" class="playerBtn mute"></a>
+			<a href="#" class="playerBtn unmute"></a>
+			<a href="#" class="playerBtn loop"></a>
+			<a href="#" class="playerBtn nextsong"></a>
+			<div id="volumeLoadBar">
+				<div id="volumeBar">
+					<div id="volumeBarActive"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END: Audio Player -->
+	<div class="clearfix"></div>
+	<!-- BEGIN: Audio List -->
+	<div id="audioList">
+		<ul>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Nexus.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Nexus.ogg">Brandz - Nexus [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.ogg">Brandz - Angeldust [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.ogg">Brandz - Pleasure [2014]</li>
+		</ul>
+	</div>
+	<!-- END: Audio List -->
+</div>
+<!-- END: Music Player -->
+
+<!-- BEGIN: First Loading; Please don't remove this element -->
+<div id="bodyLoading">
+	<div id="coverimage">
+		<img src="images/entrance_logo.png" alt="FlowAway" >
+	</div>
+</div>
+<div id="REF_ColorFirst"></div>
+<div id="REF_ColorSecond"></div>
+<!-- END:  -->
+
+
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=true'></script>
+<script type='text/javascript' src='js/jqBootstrapValidation.js'></script>
+<script type='text/javascript' src='js/jquery.history.js'></script>
+<script type='text/javascript' src='http://f.vimeocdn.com/js/froogaloop2.min.js'></script>
+<script type='text/javascript' src='js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='js/jquery.flexslider.js'></script>
+<script type='text/javascript' src='js/jquery.form.js'></script>
+<script type='text/javascript' src='js/jquery.nicescroll.js'></script>
+<script type='text/javascript' src='js/jquery.hammer.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.perfectmasonry.js'></script>
+<script type='text/javascript' src='js/jquery.hoverdir.js'></script>
+<script type='text/javascript' src='js/jquery.knob.js'></script>
+<script type='text/javascript' src='js/video.js'></script>
+</body>
+</html>

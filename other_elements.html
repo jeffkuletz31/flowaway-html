@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>FlowAway | Other Elements</title>
+<meta name="description" content="FlowAway Background Video/Image/Audio Supported Premium HTML5 Theme" />
+<meta name='robots' content='index,follow' />
+<link rel='stylesheet' id='contentFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='headerFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css-css'  href='css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-css-css'  href='css/video-js.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ThemeKeyAnimations-css'  href='css/animations.css' type='text/css' media='all' />
+<link rel='stylesheet' id='generalStyle-css'  href='style.css' type='text/css' media='all' />
+<script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>
+<script type='text/javascript' src='js/jquery-migrate-1.2.1.min.js'></script>
+<script type='text/javascript' src='js/modernizr.js'></script>
+
+<script type='text/javascript' src='main.js'></script>
+<script type='text/javascript'>
+var historyApiEnable = false; // if true htlm5 history api will use
+var bgTime = 6000; // Background Image/Video animation display duration (ms)
+var bgPaused = false; // Background Image/Video animation paused
+var autoPlay = true; // Background audio autoplay
+var loop = false; // Background audio loop or next song
+var videoSkipMobile = false; // if true background videos skips on mobile
+var NormalFade = false; // Normal fade or animated bg image
+var videoLoop = false; // if true video will be play again when end of the video.
+var muteWhilePlayVideo = true; // if true video mute while playing video
+var btnSoundUrlMp3 = 'http://files.renklibeyaz.com/sounds/pd-button.mp3'; // Button Hover Sound
+var btnSoundUrlOgg = 'http://files.renklibeyaz.com/sounds/pd-button.ogg'; // Button Hover Sound
+var videoMuted = false; // if true video start mute
+var loopBg = true; // if true backgroud item loop when end of the array
+var bgPatternV = 'block'; // if block pattern visible, if none pattern hide
+var videoPaused = false; // if true video doesn't start
+var bgStretch = true; // if true bg stretch
+var twitterEnable = true; // if true twitter data loaded by ajax
+</script>
+</head>
+<body>
+
+<!-- BEGIN: Body Wrapper -->
+<div id="body-wrapper">
+
+	<!-- BEGIN: Main Menu -->
+	<header id="menu-container">
+		<a id="closeMenu" class="nolink" href="javascript:void(0);"></a>
+		<div id="menu-wrapper">
+			<span id="menuBorder"></span>
+			<!-- BEGIN: Logo -->
+			<div id="logo">
+				<img src="images/flowaway-logo.png" alt="FlowAway" >
+			</div>
+			<!-- END: Logo -->
+			<nav id="mainmenu">
+				<div class="menu-header">
+					<ul id="menu-main-menu" class="menu">
+						<li id="menu-item-1">						
+							<a href="index.html">
+								<span class="title">
+									<span class="original">HOME</span>
+								</span>
+							</a>
+						</li>
+						
+						<li id="menu-item-2">						
+							<a href="#">
+								<span class="title">
+									<span class="original">ABOUT</span>
+								</span>
+							</a>
+							
+							<ul class="sub-menu">
+							
+								<li id="menu-item-21">							
+									<a href="company.html">
+										<span class="title">
+											<span class="original">COMPANY</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-22">							
+									<a href="columns.html">
+										<span class="title">
+											<span class="original">COLUMNS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-23">							
+									<a href="quotes.html">
+										<span class="title">
+											<span class="original">QUOTES</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-24">							
+									<a href="other_elements.html">
+										<span class="title">
+											<span class="original">OTHER ELEMENTS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-25">							
+									<a href="#">
+										<span class="title">
+											<span class="original">LEVEL 3</span>
+										</span>
+									</a>
+										<ul class="sub-menu">
+
+										<li id="menu-item-251">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 1</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-252">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 2</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-253">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 3</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-3">						
+							<a href="blog.html">
+								<span class="title">
+									<span class="original">BLOG</span>
+								</span>
+							</a>
+						</li>
+
+						<li id="menu-item-4">						
+							<a href="#">
+								<span class="title">
+									<span class="original">GALLERIES</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-41">							
+									<a href="grid-gallery.html">
+										<span class="title">
+											<span class="original">GRID GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-42">							
+									<a href="background-gallery.html">
+										<span class="title">
+											<span class="original">BACKGROUND GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-43">							
+									<a href="fullpage-gallery.html">
+										<span class="title">
+											<span class="original">FULLPAGE GALLERY</span>
+										</span>
+									</a>
+								</li>								
+							</ul>
+						</li>
+
+						<li id="menu-item-5">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PROJECTS</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-51">							
+									<a href="projects-masonary.html">
+										<span class="title">
+											<span class="original">MASONRY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-52">							
+									<a href="project-3-columns.html">
+										<span class="title">
+											<span class="original">3 COLUMNS</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-53">							
+									<a href="project-4-columns-pagination.html">
+										<span class="title">
+											<span class="original">4 COLUMNS PAGINATION</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-54">							
+									<a href="project-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-55">							
+									<a href="project-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+
+						<li id="menu-item-6">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PORTFOLIOS</span>
+								</span>
+							</a>
+						
+							<ul class=" sub-menu">
+
+								<li id="menu-item-61">							
+									<a href="portfolio-fullpage-grid.html">
+										<span class="title">
+											<span class="original">PORTFOLIO GRID</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-62">							
+									<a href="portfolio-inpage.html">
+										<span class="title">
+											<span class="original">PORTFOLIO INPAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-63">							
+									<a href="portfolio-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-64">							
+									<a href="portfolio-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-65">							
+									<a href="portfolio-centered-page-bg.html">
+										<span class="title">
+											<span class="original">CENTERED PAGE WITH BG</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-7">						
+							<a href="contact.html">
+								<span class="title">
+									<span class="original">CONTACT</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+				
+			<div id="TwitterFeed">
+				<h3>Twitter Feed</h3>
+				<ul>
+					<li>Tweets are loading</li>
+				</ul>
+			</div>
+			<h3 class="menulink"><a href="#">Buy This Theme!</a></h3>
+			<div id="menuSocial">
+				<a class="facebook" href="#"></a>
+				<a class="twitter" href="#"></a>
+				<a class="dribbble" href="#"></a>
+				<a class="linkedin" href="#"></a>
+				<a class="youtube" href="#"></a>
+				<a class="vimeo" href="#"></a>
+				<a class="pinterest" href="#"></a>
+				<a class="instagram" href="#"></a>
+			</div>
+		</div>
+	</header>
+	<a id="openMenu" class="nolink" href="#"></a>
+	<!-- END: Main Menu -->
+	
+	<!-- BEGIN: Main Elements; Please don't change these elements -->
+	<div id="bgPlayer">
+		<div id="mediaWrapper"></div>
+		<div id="bgPattern"></div>
+		<div id="mediaTimer"></div>
+		<div id="bgText">
+			<div class="headerTextWrapper"><div class="headerText"></div></div>
+			<div class="clearfix"></div>
+			<div class="subTextWrapper"><div class="subText"></div></div>
+		</div>
+		<!-- BEGIN: Controller Buttons -->
+		<a class="prevBG" href="javascript:void(0);"></a>
+		<a class="nextBG" href="javascript:void(0);"></a>
+		<div class="itemNumbers">
+			<span class="currentItemNo"></span> <span class="currentItemSeperator">/</span> <span class="totalItemCount"></span>
+			<a href="#" class="currentPlayPause"></a>
+		</div>
+		<div class="screenControl">
+			<a class="fitBG" href="javascript:void(0);"></a>
+			<a class="fitCenterBG" href="javascript:void(0);"></a>
+			<a class="fullCenterBG" href="javascript:void(0);"></a>
+			<a class="bgTextToggle" href="javascript:void(0);"></a>
+		</div>
+		<div class="bgImageLoading">
+			<div id="circleG">
+				<div id="circleG_1" class="circleG"></div>
+				<div id="circleG_2" class="circleG"></div>
+				<div id="circleG_3" class="circleG"></div>
+			</div>
+		</div>
+		<!-- END: Controller Buttons -->
+		
+		<div id="contentLoading">
+			<div id="loading-text">Loading</div>
+			<div class="slider">
+			<div class="line"></div>
+			  <div class="break dot1"></div>
+			  <div class="break dot2"></div>
+			  <div class="break dot3"></div>
+			</div>
+		</div>	
+		
+		<div id="videoExpander"></div>
+	</div>
+	
+	<div id="content">
+		<div id="contentContainer" class="Invisible FullPageCenter">
+			<div id="contentBox">
+				<section id="contentBoxContainer">
+					<!-- Content Start Here -->
+					<div class="container ">
+						<h1>OTHER ELEMENTS</h1>
+						<hr />
+						<div class="row">
+							<div class="col-sm-4">
+								<br />
+								<h3>RESPONSIVE VIMEO VIDEO</h3>
+								<hr />
+								<iframe class="iframevideo" src="http://player.vimeo.com/video/65536778?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>RESPONSIVE YOUTUBE VIDEO</h3>
+								<hr />
+								<iframe class="iframevideo" width="560" height="315" src="http://www.youtube.com/embed/JuyB7NO0EYY?wmode=transparent&amp;rel=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe><br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>RESPONSIVE SELF HOSTED VIDEO</h3>
+								<hr />
+								<video id="embedplayer_CQC8f" class="video-js embed-videojs vjs-default-skin" controls preload="none" width="960" height="540"
+									poster="images/blog-05.jpg"
+									data-setup="{}">
+									<source src="http://mythemes.renklibeyaz.com/embedvideos/embedvideo01.mp4" type="video/mp4" />
+								</video>
+								<br />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<br />
+								<h3>RESPONSIVE SLIDER</h3>
+								<hr />
+								<div class="flexslider" data-controlnav="true">
+									<ul class="slides">
+										<li><img src="images/1635399342.jpg" alt="Slider Image"></li>
+										<li><img src="images/-269143731.jpg" alt="Slider Image"></li>
+										<li><img src="images/593441235.jpg" alt="Slider Image"></li>
+										<li><img src="images/697972938.jpg" alt="Slider Image"></li>
+										<li><img src="images/-449824684.jpg" alt="Slider Image"></li>
+									</ul>
+								</div>
+								<br />
+							</div>
+							<div class="col-sm-6">
+								<br />
+								<h3>RESPONSIVE SLIDER FIXED HEIGHT WITHOUT CONTROL </h3>
+								<hr />
+								<div class="flexslider" data-controlnav="false">
+									<ul class="slides">
+										<li><img src="images/1409441802.jpg" alt="Slider Image"></li>
+										<li><img src="images/-628267031.jpg" alt="Slider Image"></li>
+										<li><img src="images/371681143.jpg" alt="Slider Image"></li>
+										<li><img src="images/484601454.jpg" alt="Slider Image"></li>
+										<li><img src="images/-800559376.jpg" alt="Slider Image"></li>
+									</ul>
+								</div>
+								<br />
+							</div>
+						</div>
+						<h3>LIGHT BOX</h3>
+						<hr />
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="lightbox">
+									<a href="images/gallery-03-01.jpg">
+										<img src="images/-1298698062.jpg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-105" >
+									</a>
+									<a href="images/gallery-03-03.jpg">
+										<img src="images/-256739377.jpg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-104" >
+									</a>
+									<a href="images/gallery-03-02.jpg">
+										<img src="images/1008236369.jpg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-103" >
+									</a>
+									<a href="images/project-03.jpg">
+										<img src="images/1175528909.jpg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-101" >
+									</a>
+									<a href="images/project-02.jpg">
+										<img src="images/-1967446701.jpg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-99" >
+									</a>
+									<a href="images/project-01.jpg">
+										<img src="images/70525616.jpg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-96" >
+									</a>
+								</div>
+								<br />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<br />
+								<h3>GOOGLE MAP</h3>
+								<hr />
+								<div class="gmap" data-width="100%" data-height="300" data-lat="38.897897" data-lng="-77.036542" data-zoom="8" data-controls="true" data-maptype="hybrid" ></div>
+								<br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>GOOGLE MAP#2</h3>
+								<hr />
+								<div class="gmap" data-width="100%" data-height="300" data-lat="38.897897" data-lng="-77.036542" data-zoom="11" data-controls="true" data-maptype="roadmap" ></div>
+								<br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>GOOGLE MAP#3</h3>
+								<hr />
+								<div class="gmap" data-width="100%" data-height="300" data-lat="38.897897" data-lng="-77.036542" data-zoom="14" data-controls="false" data-maptype="satellite" ><span>White House Here!</span></div>
+								<br />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<br />
+								<h3>CIRCLE  WITH ICON</h3>
+								<hr />
+								<div class="knob-wrapper text-center"><input class="knob" data-content="&#xf06e;" data-width="80%" data-height="80%" data-thickness=".20" value="25"   data-readOnly="true" data-fgColor="#303c4c" data-bgColor="#d2d4d8"></div>
+								<br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>CIRCLE #2</h3>
+								<hr />
+								<div class="knob-wrapper text-center"><input class="knob"  data-width="80%" data-height="80%" data-thickness=".1" value="65"   data-readOnly="true" data-fgColor="#24afb2" data-bgColor="#d2d4d8"></div>
+								<br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>CIRCLE #3</h3>
+								<hr />
+								<div class="knob-wrapper text-center"><input class="knob"  data-width="80%" data-height="80%" data-thickness=".3" value="80"   data-readOnly="true" data-fgColor="#d75858" data-bgColor="#d2d4d8"></div>
+								<br />
+							</div>
+						</div>
+						<h3>LIST ITEMS</h3>
+						<hr />
+						<div class="row">
+							<div class="col-sm-3">
+								<ul class="list-group">
+									<li class="list-group-item">Cras justo odio</li>
+									<li class="list-group-item">Dapibus ac facilisis in</li>
+									<li class="list-group-item">Morbi leo risus</li>
+									<li class="list-group-item">Porta ac consectetur ac</li>
+									<li class="list-group-item">Vestibulum at eros</li>
+								</ul>
+								<br />
+							</div>
+							<div class="col-sm-3">
+								<ul class="list-group">
+									<li class="list-group-item"><span class="badge">14</span>Cras justo odio</li>
+									<li class="list-group-item"><span class="badge">21</span>Dapibus ac facilisis in</li>
+									<li class="list-group-item"><span class="badge">5</span>Morbi leo risus</li>
+									<li class="list-group-item"><span class="badge">11</span>Porta ac consectetur ac</li>
+									<li class="list-group-item"><span class="badge">7</span>Vestibulum at eros</li>
+								</ul>
+								<br />
+							</div>
+							<div class="col-sm-3">
+								<div class="list-group">
+									<a href="#"  class="list-group-item active">Cras justo odio</a>
+									<a href="#"  class="list-group-item ">Dapibus ac facilisis in</a>
+									<a href="#"  class="list-group-item ">Morbi leo risus</a>
+									<a href="#"  class="list-group-item ">Porta ac consectetur ac</a>
+									<a href="#"  class="list-group-item ">Vestibulum at eros</a>
+								</div>
+								<br />
+							</div>
+							<div class="col-sm-3">
+								<div class="list-group">
+									<a href="#"  class="list-group-item active">
+										<h4 class="list-group-item-heading">List group item heading</h4>
+										<p class="list-group-item-text">Cras justo odio</p>
+									</a>
+									<a href="#"  class="list-group-item ">
+										<h4 class="list-group-item-heading">List group item heading</h4>
+										<p class="list-group-item-text">Dapibus ac facilisis in</p>
+									</a>
+									<a href="#"  class="list-group-item ">
+										<h4 class="list-group-item-heading">List group item heading</h4>
+										<p class="list-group-item-text">Morbi leo risus</p>
+									</a>
+								</div>
+								<br />
+							</div>
+						</div>
+						<br />
+						<div class="row">
+							<div class="col-sm-3">
+								<h3>BUTTON COLORS</h3>
+								<hr />
+								<a href="#"  role="button" class="btn btn-margin btn-default  ">Default</a>
+								<a href="#"  role="button" class="btn btn-margin btn-primary  ">Primary</a>
+								<a href="#"  role="button" class="btn btn-margin btn-success  ">Success</a>
+								<a href="#"  role="button" class="btn btn-margin btn-info  ">Info</a>
+								<a href="#"  role="button" class="btn btn-margin btn-warning  ">Warning</a>
+								<a href="#"  role="button" class="btn btn-margin btn-danger  ">Danger</a>
+								<a href="#"  role="button" class="btn btn-margin btn-link  ">Link</a><br />
+							</div>
+							<div class="col-sm-3">
+								<h3>BUTTON WITH ICONS</h3>
+								<hr />
+								<a href="#"  role="button" class="btn btn-margin btn-default  "><i class="fa fa-tags fa-lg"></i> Default</a>
+								<a href="#"  role="button" class="btn btn-margin btn-primary  "><i class="fa fa-download fa-lg"></i> Primary</a>
+								<a href="#"  role="button" class="btn btn-margin btn-success  "><i class="fa fa-envelope fa-lg"></i> Success</a>
+								<a href="#"  role="button" class="btn btn-margin btn-info  "><i class="fa fa-users fa-lg"></i> Info</a>
+								<a href="#"  role="button" class="btn btn-margin btn-warning  "><i class="fa fa-sitemap fa-lg"></i> Warning</a>
+								<a href="#"  role="button" class="btn btn-margin btn-danger  "><i class="fa fa-css3 fa-lg"></i> Danger</a>
+								<br />
+							</div>
+							<div class="col-sm-3">
+								<h3>BUTTON SIZES</h3>
+								<hr />
+								<a href="#"  role="button" class="btn btn-margin btn-primary btn-lg ">Large</a>
+								<a href="#"  role="button" class="btn btn-margin btn-default  ">Default</a>
+								<a href="#"  role="button" class="btn btn-margin btn-success btn-sm ">Small</a>
+								<a href="#"  role="button" class="btn btn-margin btn-info btn-xs ">XSmall</a>
+								<br />
+							</div>
+							<div class="col-sm-3">
+								<h3>BUTTON BLOCK</h3>
+								<hr/>
+								<a href="#"  role="button" class="btn btn-margin btn-warning btn-lg btn-block">Large</a>
+								<a href="#"  role="button" class="btn btn-margin btn-default  btn-block">Default</a>
+								<a href="#"  role="button" class="btn btn-margin btn-danger btn-sm btn-block">Small</a>
+								<a href="#"  role="button" class="btn btn-margin btn-primary btn-xs btn-block">XSmall</a>
+								<br />
+							</div>
+						</div>
+						<br />
+						<div class="row">
+							<div class="col-sm-6">
+								<h3>TOOLTIP</h3>
+								<hr />
+								Vivamus et pellentesque nisl. Cum sociis <a class="inlink" href="#"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">top</a> penatibus et
+								magnis dis parturient montes, nascetur ridiculus mus. Nam nec justo <a class="inlink" href="#"  data-toggle="tooltip" data-placement="left" title="Tooltip on left">left</a> 
+								sem fringilla gravida sed at sapien. Nullam et metus egestas, mattis est sed, <a class="inlink" href="#"  data-toggle="tooltip" data-placement="right" title="Tooltip on left">right</a> 
+								eros. Vestibulum ante ipsum primis in faucibus orci <a class="inlink" href="#"  data-toggle="tooltip" data-placement="bottom" title="Tooltip on left">bottom</a>
+								et ultrices posuere cubilia Curae.
+							</div>
+							<div class="col-sm-6">
+								<h3>POPOVER</h3>
+								<hr />
+								Vivamus et pellentesque nisl. Cum sociis <a class="inlink" href="#"  data-toggle="popover" data-placement="top" data-content="Popover on top" data-container="body">top</a> 
+								penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam nec justo 
+								<a class="inlink" href="#"  data-toggle="popover" data-placement="left" data-content="Popover on left" data-container="body">left</a> sem fringilla gravida sed at sapien. 
+								Nullam et metus egestas, mattis est sed, <a class="inlink" href="#"  data-toggle="popover" data-placement="right" data-content="Popover on left" data-container="body">right</a> 
+								eros. Vestibulum ante ipsum primis in faucibus orci <a class="inlink" href="#"  data-toggle="popover" data-placement="bottom" data-content="Popover on left" data-container="body">bottom</a>
+								et ultrices posuere cubilia Curae.<br />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<h3>ACCORDION</h3>
+								<hr />
+								<div class="panel-group accordition-toggle" id="accordion_W3h2S">
+									<div class="panel panel-default active">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion_W3h2S" href="#accordition_item_ZaC8P">
+												Fresh and Clean Design
+												</a>
+											</h4>
+											<div class="tab-toggle"></div>
+										</div>
+										<div id="accordition_item_ZaC8P" class="panel-collapse collapse in">
+											<div class="panel-body">
+												Etiam pharetra facilisis augue. Mauris ipsum dui, tincidunt eu risus sit amet, feugiat vehicula metus. Cras lectus urna,
+												euismod ut aliquet eu, convallis a nulla. Nullam adipiscing, magna a gravida blandit, tortor orci porttitor tortor, id sollicitudin massa tellus ac. 
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default ">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion_W3h2S" href="#accordition_item_gNCE0">
+												Neatly Designed For Photographers and Videographers
+												</a>
+											</h4>
+											<div class="tab-toggle"></div>
+										</div>
+										<div id="accordition_item_gNCE0" class="panel-collapse collapse ">
+											<div class="panel-body">
+												In porttitor metus semper sollicitudin volutpat. Pellentesque tempus augue in convallis posuere. Vestibulum a eros diam. Morbi sit
+												amet ornare libero. Phasellus dolor leo, pulvinar posuere elementum vulputate, suscipit ac est. Aliquam eleifend eleifend justo nec tempus.
+												Curabitur in cursus. 
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default ">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion_W3h2S" href="#accordition_item_j4eIU">
+												100% Responsive for Mobile Devices
+												</a>
+											</h4>
+											<div class="tab-toggle"></div>
+										</div>
+										<div id="accordition_item_j4eIU" class="panel-collapse collapse ">
+											<div class="panel-body">
+												Quisque neque massa, pretium a tempus in, auctor a nunc. In hac habitasse platea dictumst. Pellentesque a sapien lorem. Donec feugiat, 
+												enim sit amet molestie dignissim, tellus libero tincidunt tortor, sit amet bibendum ante sapien a risus. Ut suscipit metus. 
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- .panel-group -->
+								<br />
+							</div>
+							<div class="col-sm-6">
+								<h3>TABS</h3>
+								<hr />
+								<ul class="nav nav-tabs" id="tab_DgVZK">
+									<li class="active"><a href="#tab_item_4KEac" data-toggle="tab">Fresh Design</a></li>
+									<li><a href="#tab_item_NW5UO" data-toggle="tab">For Photographers</a></li>
+									<li><a href="#tab_item_OKO3I" data-toggle="tab">100% Responsive</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="tab_item_4KEac">
+										Suspendisse interdum dui ac lacus dapibus pulvinar. Mauris placerat, neque et tincidunt 
+										lobortis, purus dui condimentum orci, sit amet ornare justo felis sit amet turpis. Aenean fermentum risus et luctus varius. Cras dolor 
+										orci, aliquet eget quam a, venenatis pharetra magna. Cras a risus sed tellus blandit dignissim. Donec vitae lobortis nisl. Aliquam sed dolor eget sapien
+										sollicitudin condimentum et eget diam. Quisque pharetra iaculis eros sed blandit. Ut et orci eleifend urna semper ornare sit amet a nunc. Curabitur posuere
+										pulvinar enim nec laoreet. Sed egestas ligula non risus.
+									</div>
+									<div class="tab-pane fade " id="tab_item_NW5UO">
+										Phasellus blandit, purus a suscipit interdum, erat risus pretium sapien, quis tempus risus 
+										libero bibendum leo. In semper luctus dui, ut pharetra urna fermentum in. Praesent at porta mi. Donec non tellus at lorem ultricies convallis. 
+										Nunc vestibulum placerat nisi, a posuere libero vestibulum ac. Ut et arcu quis orci dictum egestas. Curabitur tempus turpis vehicula malesuada fringilla. 
+										Etiam vel nunc lacinia, tristique justo non, interdum nisl. Phasellus lacus enim, ultrices vel luctus sed, egestas sit amet tellus. Vivamus vestibulum varius
+										tincidunt. Nam sodales metus sit amet pharetra lacinia. Integer.
+									</div>
+									<div class="tab-pane fade " id="tab_item_OKO3I">
+										Donec lorem arcu, consectetur sit amet libero ac, tempus rutrum dolor. Cras a massa feugiat, dignissim ligula 
+										eget, fermentum massa. Cras vitae felis libero. Morbi id libero vitae tortor semper aliquet. Vestibulum bibendum sodales nibh, eget molestie risus dignissim non. 
+										Maecenas molestie est vitae risus volutpat luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam rutrum cursus purus,
+										eu fermentum felis pulvinar at. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent non euismod augue. Sed id lacus nulla. 
+										Pellentesque ut.
+									</div>
+								</div>
+								<br />
+							</div>
+						</div>
+						<br />
+						<div class="row">
+							<div class="col-sm-4">
+								<br />
+								<h3>MESSAGE BOXES</h3>
+								<hr />
+								<div class="alert alert-success ">Default</div>
+								<div class="alert alert-info ">Info</div>
+								<div class="alert alert-warning ">Warning</div>
+								<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Danger with dismissable</div>
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>PANELS</h3>
+								<hr />
+								<div class="panel panel-default">
+									<div class="panel-body">Panel Element</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Header</h3>
+									</div>
+									<div class="panel-body">Panel Element with Header</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-body">Panel Element with Footer</div>
+									<div class="panel-footer">Panel Footer</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Header</h3>
+									</div>
+									<div class="panel-body">Panel Element</div>
+									<div class="panel-footer">Panel Footer</div>
+								</div>
+								<br />
+							</div>
+							<div class="col-sm-4">
+								<br />
+								<h3>COLORS OF PANELS</h3>
+								<hr />
+								<div class="panel panel-primary">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Primary</h3>
+									</div>
+									<div class="panel-body">Panel Element</div>
+								</div>
+								<div class="panel panel-success">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Success</h3>
+									</div>
+									<div class="panel-body">Panel Element</div>
+								</div>
+								<br />
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Info</h3>
+									</div>
+									<div class="panel-body">Panel Element</div>
+								</div>
+								<div class="panel panel-warning">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Warning</h3>
+									</div>
+									<div class="panel-body">Panel Element</div>
+								</div>
+								<div class="panel panel-danger">
+									<div class="panel-heading">
+										<h3 class="panel-title">Panel Danger</h3>
+									</div>
+									<div class="panel-body">Panel Element</div>
+								</div>
+								<br />
+							</div>
+						</div>
+						<br />
+						<div class="row">
+							<div class="col-sm-6">
+								<br />
+								<h3>PROGRESS BARS</h3>
+								<hr />
+								<div class="progress  ">
+									<div class="progress-bar " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+										<span class="sr-only">60% Complete</span>
+									</div>
+								</div>
+								<div class="progress  ">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
+										<span class="sr-only">50% Complete</span>
+									</div>
+								</div>
+								<div class="progress progress-striped ">
+									<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+										<span class="sr-only">80% Complete</span>
+									</div>
+								</div>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+										<span class="sr-only">70% Complete</span>
+									</div>
+								</div>
+								<div class="progress  ">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:20%;">
+										<span class="sr-only">20% Complete</span>
+									</div>
+								</div>
+								<div class="progress  ">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:35%;">
+										<span class="sr-only">35% Complete</span>
+									</div>
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:20%;">
+										<span class="sr-only">20% Complete</span>
+									</div>
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:10%;">
+										<span class="sr-only">10% Complete</span>
+									</div>
+								</div>
+								<br />
+							</div>
+							<div class="col-sm-3">
+								<br />
+								<h3>FONT AWESOME</h3>
+								<hr />
+								<i class="fa fa-camera-retro"></i> fa-camera-retro<br />
+								<i class="fa fa-camera-retro fa-lg"></i> fa-lg<br />
+								<i class="fa fa-camera-retro fa-2x"></i> fa-2x<br />
+								<i class="fa fa-camera-retro fa-3x"></i> fa-3x<br />
+								<i class="fa fa-camera-retro fa-4x"></i> fa-4x<br />
+								<i class="fa fa-camera-retro fa-5x"></i> fa-5x<br />
+							</div>
+							<div class="col-sm-3">
+								<br />
+								<h3>ROTATE ICONS</h3>
+								<hr />
+								<i class="fa fa-shield"></i>  normal<br />
+								<i class="fa fa-shield fa-rotate-90"></i>  fa-rotate-90<br />
+								<i class="fa fa-shield fa-rotate-180"></i>  fa-rotate-180<br />
+								<i class="fa fa-shield fa-rotate-270"></i>  fa-rotate-270<br />
+								<i class="fa fa-shield fa-flip-horizontal"></i>  fa-flip-horizontal<br />
+								<i class="fa fa-shield fa-flip-vertical"></i>  icon-flip-vertical<br />
+							</div>
+						</div>
+						<br />
+					</div>
+					<!-- .container -->
+					<!-- Content End Here -->
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- END: Main Elements -->
+	
+	<!-- BEGIN: Bottom Side Bar -->
+	<div id="bgImagesContainer">
+		<ul id="bgImages" data-gallery-id="0"></ul>
+	</div>
+	<!-- END: Bottom Side Bar -->
+	
+	<footer id="footerArea">
+		<div id="footerLeft" class="footerText">
+						<span>FlowAway Premium Theme</span>
+				</div>
+		<div id="footerRight">
+			<div class="footerBgVideoControls">
+				<a href="#" class="footerBtn pauseVideo" data-toggle="tooltipfooter" title="Pause Video"></a> 
+				<a href="#" class="footerBtn playVideo" data-toggle="tooltipfooter" title="Play Video"></a>
+				
+				<a href="#" class="footerBtn muteVideo" data-toggle="tooltipfooter" title="Mute Video"></a> 
+				<a href="#" class="footerBtn unmuteVideo" data-toggle="tooltipfooter" title="Unmute Video"></a>
+			</div>
+			<div class="footerBgControls">
+				<a href="#" class="footerBtn fullpageGallery" data-toggle="tooltipfooter" title="FullPage Gallery" onclick="setFull()"></a> 
+				<a href="#" class="footerBtn pauseGallery" data-toggle="tooltipfooter" title="Pause Gallery"></a> 
+				<a href="#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a> 
+			</div>
+			<div class="footerAudioControls">
+				<a href="#" class="footerBtn prevAudio" data-toggle="tooltipfooter" title="Prev Song"></a> 
+				<a href="#" class="footerBtn stopAudio" data-toggle="tooltipfooter" title="Stop Song"></a> 
+				<a href="#" class="footerBtn pauseAudio" data-toggle="tooltipfooter" title="Pause Song"></a> 
+				<a href="#" class="footerBtn playAudio" data-toggle="tooltipfooter" title="Play Song"></a> 
+				<a href="#" class="footerBtn listAudio"></a> 
+				<a href="#" class="footerBtn nextAudio" data-toggle="tooltipfooter" title="Next Song"></a> 
+			</div>
+		</div>
+	</footer>
+</div><!-- #body-wrapper -->
+
+<!-- BEGIN: Music Player -->
+<div id="playWrapper">
+	<!-- BEGIN: Audio Player -->
+	<div id="player">
+		<div id="playerSongName"></div>
+		<div id="playerController">
+			<div id="playerLoadBar">
+				<div id="playerBar">
+					<div id="playerBarActive"></div>
+				</div>
+			</div>
+			<div id="playerSongDuration">
+				<span class="current"></span>
+				<span class="total"></span>
+			</div>
+			<a href="#" class="playerBtn mute"></a>
+			<a href="#" class="playerBtn unmute"></a>
+			<a href="#" class="playerBtn loop"></a>
+			<a href="#" class="playerBtn nextsong"></a>
+			<div id="volumeLoadBar">
+				<div id="volumeBar">
+					<div id="volumeBarActive"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END: Audio Player -->
+	<div class="clearfix"></div>
+	<!-- BEGIN: Audio List -->
+	<div id="audioList">
+		<ul>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Nexus.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Nexus.ogg">Brandz - Nexus [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.ogg">Brandz - Angeldust [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.ogg">Brandz - Pleasure [2014]</li>
+		</ul>
+	</div>
+	<!-- END: Audio List -->
+</div>
+<!-- END: Music Player -->
+
+<!-- BEGIN: First Loading; Please don't remove this element -->
+<div id="bodyLoading">
+	<div id="coverimage">
+		<img src="images/entrance_logo.png" alt="FlowAway" >
+	</div>
+</div>
+<div id="REF_ColorFirst"></div>
+<div id="REF_ColorSecond"></div>
+<!-- END:  -->
+
+
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=true'></script>
+<script type='text/javascript' src='js/jqBootstrapValidation.js'></script>
+<script type='text/javascript' src='js/jquery.history.js'></script>
+<script type='text/javascript' src='http://f.vimeocdn.com/js/froogaloop2.min.js'></script>
+<script type='text/javascript' src='js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='js/jquery.flexslider.js'></script>
+<script type='text/javascript' src='js/jquery.form.js'></script>
+<script type='text/javascript' src='js/jquery.nicescroll.js'></script>
+<script type='text/javascript' src='js/jquery.hammer.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.perfectmasonry.js'></script>
+<script type='text/javascript' src='js/jquery.hoverdir.js'></script>
+<script type='text/javascript' src='js/jquery.knob.js'></script>
+<script type='text/javascript' src='js/video.js'></script>
+</body>
+</html>

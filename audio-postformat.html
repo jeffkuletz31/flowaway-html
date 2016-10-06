@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>FlowAway | Audio Post Format</title>
+<meta name="description" content="FlowAway Background Video/Image/Audio Supported Premium HTML5 Theme" />
+<meta name='robots' content='index,follow' />
+<link rel='stylesheet' id='contentFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='headerFont-css'  href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css-css'  href='css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-css-css'  href='css/video-js.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ThemeKeyAnimations-css'  href='css/animations.css' type='text/css' media='all' />
+<link rel='stylesheet' id='generalStyle-css'  href='style.css' type='text/css' media='all' />
+<script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>
+<script type='text/javascript' src='js/jquery-migrate-1.2.1.min.js'></script>
+<script type='text/javascript' src='js/modernizr.js'></script>
+
+<script type='text/javascript' src='main.js'></script>
+<script type='text/javascript'>
+var historyApiEnable = false; // if true htlm5 history api will use
+var bgTime = 6000; // Background Image/Video animation display duration (ms)
+var bgPaused = false; // Background Image/Video animation paused
+var autoPlay = true; // Background audio autoplay
+var loop = false; // Background audio loop or next song
+var videoSkipMobile = false; // if true background videos skips on mobile
+var NormalFade = false; // Normal fade or animated bg image
+var videoLoop = false; // if true video will be play again when end of the video.
+var muteWhilePlayVideo = true; // if true video mute while playing video
+var btnSoundUrlMp3 = 'http://files.renklibeyaz.com/sounds/pd-button.mp3'; // Button Hover Sound
+var btnSoundUrlOgg = 'http://files.renklibeyaz.com/sounds/pd-button.ogg'; // Button Hover Sound
+var videoMuted = false; // if true video start mute
+var loopBg = true; // if true backgroud item loop when end of the array
+var bgPatternV = 'block'; // if block pattern visible, if none pattern hide
+var videoPaused = false; // if true video doesn't start
+var bgStretch = true; // if true bg stretch
+var twitterEnable = true; // if true twitter data loaded by ajax
+</script>
+</head>
+<body>
+
+<!-- BEGIN: Body Wrapper -->
+<div id="body-wrapper">
+
+	<!-- BEGIN: Main Menu -->
+	<header id="menu-container">
+		<a id="closeMenu" class="nolink" href="javascript:void(0);"></a>
+		<div id="menu-wrapper">
+			<span id="menuBorder"></span>
+			<!-- BEGIN: Logo -->
+			<div id="logo">
+				<img src="images/flowaway-logo.png" alt="FlowAway" >
+			</div>
+			<!-- END: Logo -->
+			<nav id="mainmenu">
+				<div class="menu-header">
+					<ul id="menu-main-menu" class="menu">
+						<li id="menu-item-1">						
+							<a href="index.html">
+								<span class="title">
+									<span class="original">HOME</span>
+								</span>
+							</a>
+						</li>
+						
+						<li id="menu-item-2">						
+							<a href="#">
+								<span class="title">
+									<span class="original">ABOUT</span>
+								</span>
+							</a>
+							
+							<ul class="sub-menu">
+							
+								<li id="menu-item-21">							
+									<a href="company.html">
+										<span class="title">
+											<span class="original">COMPANY</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-22">							
+									<a href="columns.html">
+										<span class="title">
+											<span class="original">COLUMNS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-23">							
+									<a href="quotes.html">
+										<span class="title">
+											<span class="original">QUOTES</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-24">							
+									<a href="other_elements.html">
+										<span class="title">
+											<span class="original">OTHER ELEMENTS</span>
+										</span>
+									</a>
+								</li>
+								
+								<li id="menu-item-25">							
+									<a href="#">
+										<span class="title">
+											<span class="original">LEVEL 3</span>
+										</span>
+									</a>
+										<ul class="sub-menu">
+
+										<li id="menu-item-251">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 1</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-252">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 2</span>
+												</span>
+											</a>
+										</li>
+
+										<li id="menu-item-253">								
+											<a href="#">
+												<span class="title">
+													<span class="original">ITEM 3</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-3">						
+							<a href="blog.html">
+								<span class="title">
+									<span class="original">BLOG</span>
+								</span>
+							</a>
+						</li>
+
+						<li id="menu-item-4">						
+							<a href="#">
+								<span class="title">
+									<span class="original">GALLERIES</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-41">							
+									<a href="grid-gallery.html">
+										<span class="title">
+											<span class="original">GRID GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-42">							
+									<a href="background-gallery.html">
+										<span class="title">
+											<span class="original">BACKGROUND GALLERY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-43">							
+									<a href="fullpage-gallery.html">
+										<span class="title">
+											<span class="original">FULLPAGE GALLERY</span>
+										</span>
+									</a>
+								</li>								
+							</ul>
+						</li>
+
+						<li id="menu-item-5">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PROJECTS</span>
+								</span>
+							</a>
+						
+							<ul class="sub-menu">
+
+								<li id="menu-item-51">							
+									<a href="projects-masonary.html">
+										<span class="title">
+											<span class="original">MASONRY</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-52">							
+									<a href="project-3-columns.html">
+										<span class="title">
+											<span class="original">3 COLUMNS</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-53">							
+									<a href="project-4-columns-pagination.html">
+										<span class="title">
+											<span class="original">4 COLUMNS PAGINATION</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-54">							
+									<a href="project-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-55">							
+									<a href="project-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+
+						<li id="menu-item-6">						
+							<a href="#">
+								<span class="title">
+									<span class="original">PORTFOLIOS</span>
+								</span>
+							</a>
+						
+							<ul class=" sub-menu">
+
+								<li id="menu-item-61">							
+									<a href="portfolio-fullpage-grid.html">
+										<span class="title">
+											<span class="original">PORTFOLIO GRID</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-62">							
+									<a href="portfolio-inpage.html">
+										<span class="title">
+											<span class="original">PORTFOLIO INPAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-63">							
+									<a href="portfolio-default-page.html">
+										<span class="title">
+											<span class="original">DEFAULT PAGE</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-64">							
+									<a href="portfolio-left-page-fixed.html">
+										<span class="title">
+											<span class="original">LEFT PAGE FIXED</span>
+										</span>
+									</a>
+								</li>
+
+								<li id="menu-item-65">							
+									<a href="portfolio-centered-page-bg.html">
+										<span class="title">
+											<span class="original">CENTERED PAGE WITH BG</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li id="menu-item-7">						
+							<a href="contact.html">
+								<span class="title">
+									<span class="original">CONTACT</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+				
+			<div id="TwitterFeed">
+				<h3>Twitter Feed</h3>
+				<ul>
+					<li>Tweets are loading</li>
+				</ul>
+			</div>
+			<h3 class="menulink"><a href="#">Buy This Theme!</a></h3>
+			<div id="menuSocial">
+				<a class="facebook" href="#"></a>
+				<a class="twitter" href="#"></a>
+				<a class="dribbble" href="#"></a>
+				<a class="linkedin" href="#"></a>
+				<a class="youtube" href="#"></a>
+				<a class="vimeo" href="#"></a>
+				<a class="pinterest" href="#"></a>
+				<a class="instagram" href="#"></a>
+			</div>
+		</div>
+	</header>
+	<a id="openMenu" class="nolink" href="#"></a>
+	<!-- END: Main Menu -->
+	
+	<!-- BEGIN: Main Elements; Please don't change these elements -->
+	<div id="bgPlayer">
+		<div id="mediaWrapper"></div>
+		<div id="bgPattern"></div>
+		<div id="mediaTimer"></div>
+		<div id="bgText">
+			<div class="headerTextWrapper"><div class="headerText"></div></div>
+			<div class="clearfix"></div>
+			<div class="subTextWrapper"><div class="subText"></div></div>
+		</div>
+		<!-- BEGIN: Controller Buttons -->
+		<a class="prevBG" href="javascript:void(0);"></a>
+		<a class="nextBG" href="javascript:void(0);"></a>
+		<div class="itemNumbers">
+			<span class="currentItemNo"></span> <span class="currentItemSeperator">/</span> <span class="totalItemCount"></span>
+			<a href="#" class="currentPlayPause"></a>
+		</div>
+		<div class="screenControl">
+			<a class="fitBG" href="javascript:void(0);"></a>
+			<a class="fitCenterBG" href="javascript:void(0);"></a>
+			<a class="fullCenterBG" href="javascript:void(0);"></a>
+			<a class="bgTextToggle" href="javascript:void(0);"></a>
+		</div>
+		<div class="bgImageLoading">
+			<div id="circleG">
+				<div id="circleG_1" class="circleG"></div>
+				<div id="circleG_2" class="circleG"></div>
+				<div id="circleG_3" class="circleG"></div>
+			</div>
+		</div>
+		<!-- END: Controller Buttons -->
+		
+		<div id="contentLoading">
+			<div id="loading-text">Loading</div>
+			<div class="slider">
+			<div class="line"></div>
+			  <div class="break dot1"></div>
+			  <div class="break dot2"></div>
+			  <div class="break dot3"></div>
+			</div>
+		</div>	
+		
+		<div id="videoExpander"></div>
+	</div>
+	
+	<div id="content">
+		<div id="contentContainer" class="Invisible FullPageCenter">
+			<div id="contentBox">
+				<section id="contentBoxContainer" class="blog-detail">
+					<!-- Content Start Here -->
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9">
+								<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F127561823&color=ff6600&auto_play=false&show_artwork=false"></iframe>
+								<div class="blogcontent" >
+									<div class="blogdatemeta">
+										<div class="rb_blog_meta_date_wrapper">
+											<div class="rb_blog_meta_date rb_format_audio"><span class="rb_blog_meta_date_day">03</span> JAN</div>
+										</div>
+										<div class="rb_meta_links ">
+											<h3><a href="#">Audio Postformat</a></h3>
+											<hr>
+											<i class="fa fa-user"></i> <a class="url fn n" href="#" >admin</a>  
+											&nbsp;<i class="fa fa-folder"></i> <a href="#" title="View all posts in Music" rel="category tag">Music</a>  
+											&nbsp;<i class="fa fa-tag"></i> <a href="#" rel="tag">Audio</a>  
+											&nbsp;<i class="fa fa-heart bloglike "></i> <a class="bloglikelink" href="#" data-post-id="56">86</a>  
+											&nbsp;<i class="fa fa-comment"></i> No Comment 								
+										</div>
+										<!-- .rb_meta_links -->
+										<div class="clearfix"></div>
+									</div>
+									<!-- .blogdatemeta -->
+								</div>
+								<!-- .blogcontent -->						
+								<p>SoundClound shortcode.  Suspendisse hendrerit arcu vitae erat rhoncus fermentum. <span id="more-56"></span>Ut et facilisis lacus. Mauris rhoncus leo ut nisl semper interdum. 
+								Phasellus sit amet felis mauris. Donec fringilla mattis viverra. Praesent varius leo in tortor tincidunt, eget feugiat quam hendrerit. Phasellus eleifend dictum placerat. Morbi 
+								tincidunt magna lacus, at pellentesque ligula molestie eget. In et viverra ante. Duis dapibus lorem vel varius commodo. Aliquam consequat sapien vel erat commodo elementum. 
+								Integer vitae consectetur arcu. Cras eleifend urna nunc, sed blandit felis faucibus quis. Etiam in vestibulum nisl, a condimentum enim. Maecenas sollicitudin tellus vulputate, 
+								consectetur mi vitae, feugiat urna. Nulla hendrerit urna sed sollicitudin accumsan.</p>
+								
+								<p>Pellentesque dapibus erat quis eros vestibulum, at fringilla tellus dignissim. Integer euismod, ligula a mollis imperdiet, quam nisl adipiscing lorem, vitae interdum sem metus 
+								nec massa. Fusce ultrices ante lacinia tellus luctus bibendum. Cras consectetur nisl at urna tincidunt lacinia. Nunc malesuada vulputate neque, vitae fermentum elit. Mauris at eros 
+								lorem. Duis augue tellus, fermentum a lacus in, vehicula consectetur urna. Proin tempor dolor id neque porta, et ultricies enim cursus. Praesent at lorem nec ipsum euismod auctor et ut eros.
+								Etiam eget blandit metus. Fusce diam turpis, bibendum id mauris at, vestibulum placerat metus. Duis sit amet elementum leo. In ante felis, adipiscing eu vehicula eu, semper a leo.</p>
+								
+								<p>Morbi id iaculis elit. Morbi hendrerit lobortis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum tristique enim, ut sodales ligula ornare ac.
+								Maecenas eget lectus sit amet sapien interdum aliquet. Sed placerat euismod mi rhoncus faucibus. Integer placerat tortor a orci aliquet, sagittis facilisis erat ultricies. Phasellus
+								vulputate rutrum metus eget rhoncus. Ut eu augue nec nulla pulvinar blandit. Duis fermentum tortor vitae ornare luctus.</p>
+								<!-- BEGIN: comments -->
+								<div id="comments">
+									<div id="respond" class="comment-respond">
+										<h3 id="reply-title" class="comment-reply-title">Post a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel Reply</a></small></h3>
+										<form action="#" method="post" id="commentform" class="comment-form" onsubmit="return false;">
+											<div class="row">
+												<div class="col-md-5"><label for="author">Name</label> <span class="required">*</span><input class="form-control" id="author" name="author" type="text" value="" size="30" placeholder="Name" />
+													<label for="email">Email</label> <span class="required">*</span><input class="form-control" id="email" name="email" type="text" value="" size="30" placeholder="Email" />
+													<label for="url">Website</label><input class="form-control" id="url" name="url" type="text" value="" size="30" placeholder="Website" />
+												</div>
+												<div class="col-md-7"><label for="comment">Comment</label><textarea class="form-control" id="comment" name="comment" cols="45" rows="5" aria-required="true" placeholder="Comment"></textarea></div>
+											</div>
+											<!-- .row -->												
+											<p class="form-submit">
+												<input name="submit" type="submit" id="submit" value="Send" />
+												<input type='hidden' name='comment_post_ID' value='56' id='comment_post_ID' />
+												<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+											</p>
+										</form>
+									</div>
+									<!-- #respond -->
+								</div>
+								<!-- END: comments -->
+							</div>
+							<div class="col-md-3">
+								<aside class="sidebar">
+									<ul>
+										<li>
+											<div id="search-2" class="first-wa-container widget_search">
+												<div id="searchformwrapper">
+													<form id="searchform" action="#" method="get" onsubmit="return false;">
+														<div class="input-group">
+															<input type="text" class="form-control" name="s" placeholder="Search" value="">
+															<span class="input-group-btn">
+															<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+															</span>
+														</div>
+													</form>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+											<div id="text-2" class="first-wa-container widget_text">
+												<div class="wtitle-container">
+													<h3 class="first-wa">About FlowAway</h3>
+												</div>
+												<div class="textwidget">Nulla molestie risus ac enim laoreet aliquam. Etiam rhoncus cursus vulputate. Phasellus urna augue, accumsan non quam non, faucibus.</div>
+											</div>
+											<div id="rb_tab_widget-2" class="first-wa-container widget_rb_tab_widget">
+												<div class="wtitle-container">
+													<h3 class="first-wa">Popular</h3>
+												</div>
+												<ul class="nav nav-tabs">
+													<li class="active"><a href="#tab-populer" data-toggle="tab" >Populer</a></li>
+													<li><a href="#tab-posts" data-toggle="tab">Posts</a></li>
+													<li><a href="#tab-comments" data-toggle="tab">Comments</a></li>
+												</ul>
+												<div class="tab-content">
+													<div class="tab-pane fade in active" id="tab-populer">
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/-733541257.jpg" alt="Image Postformat"></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Embeded Audio Player</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/907748463.jpg" alt="Image Postformat"></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Self Hosted Video</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/1069267057.jpg" alt="Image Postformat"></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Audio Postformat</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/1936990640.jpg" alt="Image Postformat"></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Video Postformat</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/-1075961554.jpg" alt="Image Postformat"></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Image Postformat</a></div>
+															<div class="clearfix"></div>
+														</div>
+													</div>
+													<div class="tab-pane fade" id="tab-posts">
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/2041653417.jpg" alt="Et curae elit habitasse, etiam elit."></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Et curae elit habitasse, etiam elit.</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/1936990640.jpg" alt="Iaculis sapien posuere litora, euismod sollicitudin."></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Iaculis sapien posuere litora, euismod sollicitudin.</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/-733541257.jpg" alt="Mollis nostra primis scelerisque, quam fermentum."></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Mollis nostra primis scelerisque, quam fermentum.</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/907748463.jpg" alt="Faucibus tellus elit mattis, ligula sociosqu."></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Faucibus tellus elit mattis, ligula sociosqu.</a></div>
+															<div class="clearfix"></div>
+														</div>
+														<div class="tag_widget_item">
+															<div class="tag_widget_thumbnail">
+																<a href="#"><img src="images/1069267057.jpg" alt="Vivamus aptent mollis curabitur, maecenas sit."></a>
+															</div>
+															<div class="tag_widget_content"><a href="#">Vivamus aptent mollis curabitur, maecenas sit.</a></div>
+															<div class="clearfix"></div>
+														</div>
+													</div>
+													<div class="tab-pane fade" id="tab-comments">
+													</div>
+												</div>
+											</div>
+											<div id="tag_cloud-2" class="first-wa-container widget_tag_cloud">
+												<div class="wtitle-container">
+													<h3 class="first-wa">Tag Cloud</h3>
+												</div>
+												<div class="tagcloud">
+													<a href='#' class='tag-link-21' title='1 topic'>Audio</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Video</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Fashion</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Photography</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Cars</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Landscape</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Wedding</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Sport</a>
+													<a href='#' class='tag-link-21' title='1 topic'>Design</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</aside>
+							</div>
+						</div>
+						<!-- .row -->
+					</div>
+					<!-- .container -->
+					<!-- Content End Here -->
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- END: Main Elements -->
+	
+	<!-- BEGIN: Bottom Side Bar -->
+	<div id="bgImagesContainer">
+		<ul id="bgImages" data-gallery-id="0"></ul>		
+	</div>
+	<!-- END: Bottom Side Bar -->
+	
+	<footer id="footerArea">
+		<div id="footerLeft" class="footerText">
+						<span>FlowAway Premium Theme</span>
+				</div>
+		<div id="footerRight">
+			<div class="footerBgVideoControls">
+				<a href="#" class="footerBtn pauseVideo" data-toggle="tooltipfooter" title="Pause Video"></a> 
+				<a href="#" class="footerBtn playVideo" data-toggle="tooltipfooter" title="Play Video"></a>
+				
+				<a href="#" class="footerBtn muteVideo" data-toggle="tooltipfooter" title="Mute Video"></a> 
+				<a href="#" class="footerBtn unmuteVideo" data-toggle="tooltipfooter" title="Unmute Video"></a>
+			</div>
+			<div class="footerBgControls">
+				<a href="#" class="footerBtn fullpageGallery" data-toggle="tooltipfooter" title="FullPage Gallery" onclick="setFull()"></a> 
+				<a href="#" class="footerBtn pauseGallery" data-toggle="tooltipfooter" title="Pause Gallery"></a> 
+				<a href="#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a> 
+			</div>
+			<div class="footerAudioControls">
+				<a href="#" class="footerBtn prevAudio" data-toggle="tooltipfooter" title="Prev Song"></a> 
+				<a href="#" class="footerBtn stopAudio" data-toggle="tooltipfooter" title="Stop Song"></a> 
+				<a href="#" class="footerBtn pauseAudio" data-toggle="tooltipfooter" title="Pause Song"></a> 
+				<a href="#" class="footerBtn playAudio" data-toggle="tooltipfooter" title="Play Song"></a> 
+				<a href="#" class="footerBtn listAudio"></a> 
+				<a href="#" class="footerBtn nextAudio" data-toggle="tooltipfooter" title="Next Song"></a> 
+			</div>
+		</div>
+	</footer>
+</div><!-- #body-wrapper -->
+
+<!-- BEGIN: Music Player -->
+<div id="playWrapper">
+	<!-- BEGIN: Audio Player -->
+	<div id="player">
+		<div id="playerSongName"></div>
+		<div id="playerController">
+			<div id="playerLoadBar">
+				<div id="playerBar">
+					<div id="playerBarActive"></div>
+				</div>
+			</div>
+			<div id="playerSongDuration">
+				<span class="current"></span>
+				<span class="total"></span>
+			</div>
+			<a href="#" class="playerBtn mute"></a>
+			<a href="#" class="playerBtn unmute"></a>
+			<a href="#" class="playerBtn loop"></a>
+			<a href="#" class="playerBtn nextsong"></a>
+			<div id="volumeLoadBar">
+				<div id="volumeBar">
+					<div id="volumeBarActive"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END: Audio Player -->
+	<div class="clearfix"></div>
+	<!-- BEGIN: Audio List -->
+	<div id="audioList">
+		<ul>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Nexus.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Nexus.ogg">Brandz - Nexus [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Angeldust.ogg">Brandz - Angeldust [2014]</li>
+			<li data-mp3="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.mp3" data-ogg="http://files.renklibeyaz.com/sounds/Brandz-Pleasure.ogg">Brandz - Pleasure [2014]</li>
+		</ul>
+	</div>
+	<!-- END: Audio List -->
+</div>
+<!-- END: Music Player -->
+
+<!-- BEGIN: First Loading; Please don't remove this element -->
+<div id="bodyLoading">
+	<div id="coverimage">
+		<img src="images/entrance_logo.png" alt="FlowAway" >
+	</div>
+</div>
+<div id="REF_ColorFirst"></div>
+<div id="REF_ColorSecond"></div>
+<!-- END:  -->
+
+
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=true'></script>
+<script type='text/javascript' src='js/jqBootstrapValidation.js'></script>
+<script type='text/javascript' src='js/jquery.history.js'></script>
+<script type='text/javascript' src='http://f.vimeocdn.com/js/froogaloop2.min.js'></script>
+<script type='text/javascript' src='js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='js/jquery.flexslider.js'></script>
+<script type='text/javascript' src='js/jquery.form.js'></script>
+<script type='text/javascript' src='js/jquery.nicescroll.js'></script>
+<script type='text/javascript' src='js/jquery.hammer.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='js/jquery.isotope.perfectmasonry.js'></script>
+<script type='text/javascript' src='js/jquery.hoverdir.js'></script>
+<script type='text/javascript' src='js/jquery.knob.js'></script>
+<script type='text/javascript' src='js/video.js'></script>
+</body>
+</html>
